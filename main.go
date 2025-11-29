@@ -38,7 +38,7 @@ var store = struct {
 	},
 }
 
-// Don't ask me why i did it but its for my hate it was not a O(1) time complexity
+// Don't ask me why i did it but its for my hate that it was not O(1) time complexity
 // Why because the ID before was random and encrypted thus when checking if it already existed it had to O(N) instead of the current O(1)
 // I wasted too much time on this feature (future me just save your time and don't try this again)
 // love ==> Knuth's multiplicative hashing
